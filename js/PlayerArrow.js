@@ -49,7 +49,7 @@ class PlayerArrow {
            at all the positions stored in trajectory array
            *******/
            for (var i = 0; i < this.trajectory.length; i++) {
-            ellipse(5, 5, this.trajectory[i][0], this.trajectory[i][1]);
+            ellipse(this.trajectory[i][0], this.trajectory[i][1], 5, 5);
           }
      
   
